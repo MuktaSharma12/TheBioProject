@@ -1,0 +1,27 @@
+package stepDefinition;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+
+public class LoginStepDefinition {
+	
+	WebDriver driver;
+	
+	@Given ("^user is already on Login Page$")
+	public void user_already_on_login_page(){
+		
+		System.setProperty("webdriver.chrome.driver","C:\\Selenium Drivers\\chromedriver.exe"); 		
+		driver=new ChromeDriver();
+		driver.get("https://www.freecrm.com");
+	}
+	
+	@When("^title of the page is FreeCRM$")
+	public void title_of_login_page_is_free_CRM(){
+		String title =driver.getTitle();
+		System.out.println(title);
+	}
+
+}

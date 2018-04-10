@@ -1,0 +1,28 @@
+package selenium.scripts.chromeBrowser;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class FacebookLoginTest {
+
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.chrome.driver","C:\\Selenium Drivers\\chromedriver.exe"); 
+		WebDriver driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.get("http:\\www.facebook.com");
+		System.out.println(driver.getTitle());
+		
+		driver.findElement(By.xpath("//input[@name='firstname']")).sendKeys("Nav");
+		driver.findElement(By.xpath("//input[@name='lastname']")).sendKeys("Muk");
+		
+		driver.findElement(By.xpath("//input[@name='reg_email__']")).sendKeys("abc@gmail.com");
+		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("selenium");
+		
+		driver.findElement(By.xpath("//button[@name='websubmit']")).click();
+	}
+
+}

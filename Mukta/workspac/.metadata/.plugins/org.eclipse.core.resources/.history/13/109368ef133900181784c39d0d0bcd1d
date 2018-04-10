@@ -1,0 +1,20 @@
+package stepDefinition;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import cucumber.api.java.en.Given;
+
+public class LoginStepDefinition {
+	
+	WebDriver driver;
+	
+	@Given ("^user is already on Login Page$")
+	public void user_already_on_login_page(){
+		
+		System.setProperty("webdriver.chrome.driver","C:\\Selenium Drivers\\chromedriver.exe"); 		
+		driver=new ChromeDriver();
+		driver.get("https://www.freecrm.com");
+	}
+
+}

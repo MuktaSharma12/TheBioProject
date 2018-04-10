@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;thebioagency.com&apos;&#x0D;&#x0A;- Original project: &apos;thebioagency.com&apos;&#x0D;&#x0A;- Original element: &apos;thebioagency.com/src/main/java/thebioagency.com.thebioagency.com&apos;" description="Delete element" element1="/src\/main\/java&lt;thebioagency.com.thebioagency.com" element2="/src\/main\/java&lt;thebioagency.com.thebioagency" element3="/src\/main\/java&lt;thebioagency.com" element4="/src\/main\/java&lt;thebioagency" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1523302705404" subPackages="false" version="1.0"/>
+</session>

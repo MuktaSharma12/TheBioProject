@@ -1,0 +1,86 @@
+package seleniumTests_bioagency;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+public class Bioagency_testngclass {
+	
+	public WebDriver driver;
+	
+	@BeforeMethod
+	public void setUp(){
+		System.setProperty("webdriver.chrome.driver","C:\\Selenium Drivers\\chromedriver.exe"); 
+		driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.get("https:\\www.thebioagency.com");
+	}
+	
+	@Test(priority=1)
+	public void Verifytitle_HomePage(){
+	String MyPage_title=driver.getTitle();
+		System.out.println("Title of the page is  "+MyPage_title);
+		String expected_title = "Digital Transformation &amp; Innovation Agency - The Bio Agency";
+		Assert.assertEquals(MyPage_title, expected_title);
+		System.out.println("This test case is completed");
+		}
+	
+	
+	@Test
+	public void VerifySidePanel() throws Exception{
+		System.setProperty("webdriver.chrome.driver","C:\\Selenium Drivers\\chromedriver.exe"); 
+		driver=new ChromeDriver();
+		driver.get("https:\\www.thebioagency.com");
+		driver.findElement(By.xpath("//a[text()='Digital Innovation']")).click();
+		Thread.sleep(5000);
+		driver.findElement(By.xpath("//a[text()='Digital Transformation']")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("//a[text()='Our Work']")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("//a[text()='Our People']")).click();
+		Thread.sleep(5000);
+		 WebElement element = driver.findElement(By.xpath("//a[text()='News & Views']"));
+	      element.click();
+	        Thread.sleep(3000);
+	        Actions action = new Actions(driver);
+	        action.moveToElement(element).moveToElement(driver.findElement(By.linkText("In The Press"))).click().build().perform();
+	        driver.findElement(By.xpath("//a[text()='Careers']")).click();
+	}
+	
+	
+	@Test
+	public void VerifyCareers(){
+		//System.out.println("User is able to click on Careers link");
+		
+		
+	}
+	//@Test
+	//public void VerifySidePane2(){
+	
+		//Actions act=new Actions(driver);
+		
+		//act.moveToElement(driver.findElement(By.xpath("//a[contains(text(),'News & Views']"))).build().perform();
+		//driver.findElement(By.xpath("//a[contains(text(),'News & Views')]")).click();
+		
+		//act.moveToElement(driver.findElement(By.xpath("//a[contains(text(),'In The Press')])[1]"))).build().perform();
+		//driver.findElement(By.xpath("//a[contains(text(),'In The Press')])[1]")).click();
+	
+		//}
+		
+	
+	@AfterMethod
+	public void teardown(){
+		driver.close();
+	}
+}

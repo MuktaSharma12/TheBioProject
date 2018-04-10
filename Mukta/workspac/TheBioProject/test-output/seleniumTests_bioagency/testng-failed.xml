@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [seleniumTests_bioagency]">
+  <test thread-count="5" name="testngTest(failed)">
+    <classes>
+      <class name="seleniumTests_bioagency.GetInTouch">
+        <methods>
+          <include name="GetIn"/>
+        </methods>
+      </class> <!-- seleniumTests_bioagency.GetInTouch -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [seleniumTests_bioagency] -->

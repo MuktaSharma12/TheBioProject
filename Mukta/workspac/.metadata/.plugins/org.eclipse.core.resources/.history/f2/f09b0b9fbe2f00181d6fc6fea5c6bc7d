@@ -1,0 +1,12 @@
+package testData;
+
+public class ReadExcelDataPOI {
+	
+	
+	
+	@Test
+	public void ExcelData(){
+		
+	}
+
+}

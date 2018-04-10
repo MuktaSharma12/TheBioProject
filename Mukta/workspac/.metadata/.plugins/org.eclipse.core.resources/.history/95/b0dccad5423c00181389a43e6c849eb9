@@ -1,0 +1,28 @@
+package seleniumTests_bioagency;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+
+public class Bioagency_testngclass {
+	
+	public WebDriver driver;
+	
+	@Test
+	public void HomePage(){
+		System.setProperty("webdriver.chrome.driver","C:\\Selenium Drivers\\chromedriver.exe"); 
+		driver=new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.get("https:\\www.thebioagency.com");
+		System.out.println(driver.getTitle());
+	}
+	
+	
+	@AfterMethod
+	public void teardown(){
+		driver.quit();
+	}
+}

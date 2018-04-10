@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "TestNg POM automation Suite">
+<listeners>
+<listener
+		class-name="com.qa.ExtentReportListener.ExtentReporterNG"
+</listeners>
+
+
+<test name = "Different CRM Application test">
+
+     <classes>
+        <class name = "com.test.LoginPageTest" />
+	<class name = "com.test.ContactsTest" />
+		<class name = "com.test.HomePage" />
+		//<class name = "com.test.TestNgFeatures" />	
+
+</classes>
+
+</test>
+
+</suite>
+
+
+

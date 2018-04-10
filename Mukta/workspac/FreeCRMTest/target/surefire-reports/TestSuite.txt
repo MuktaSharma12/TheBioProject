@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 4, Errors: 0, Skipped: 1, Time elapsed: 70.353 sec <<< FAILURE!
+verifyContactsPageLabel(com.crm.qa.testcases.ContactsPageTest)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.crm.qa.testcases.ContactsPageTest.verifyContactsPageLabel(ContactsPageTest.java:55)
+
+loginPageTitleTest(com.crm.qa.testcases.LoginPageTest)  Time elapsed: 0.053 sec  <<< FAILURE!
+java.lang.AssertionError: expected [#1 Free CRM for Any Business: Online Customer Relationship Software] but found [Free CRM in the cloud software boosts sales]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.crm.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:35)
+
+selectSingleContactsTest(com.crm.qa.testcases.ContactsPageTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.crm.qa.testcases.ContactsPageTest.selectSingleContactsTest(ContactsPageTest.java:60)
+
+selectMultipleContactsTest(com.crm.qa.testcases.ContactsPageTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.crm.qa.testcases.ContactsPageTest.selectMultipleContactsTest(ContactsPageTest.java:65)
+

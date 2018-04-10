@@ -1,0 +1,7 @@
+<suite name="seleniumTests_bioagency">
+ <test name="testngTest">
+ <classes>
+ <class name="seleniumTests_bioagency.Bioagency_testngclass" />
+ </classes>
+ </test>
+</suite>

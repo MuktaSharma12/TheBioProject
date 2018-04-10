@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNg automation Suite" duration-ms="77" started-at="2018-03-22T10:39:14Z" finished-at="2018-03-22T10:39:14Z">
+    <groups>
+      <group name="SearchPage">
+        <method signature="TestNgBasics.searchTest()[pri:2, instance:com.test.TestNgBasics@17e1b0c]" name="searchTest" class="com.test.TestNgBasics"/>
+      </group> <!-- SearchPage -->
+      <group name="GooglePage">
+        <method signature="TestNgBasics.googleTitleTest()[pri:1, instance:com.test.TestNgBasics@17e1b0c]" name="googleTitleTest" class="com.test.TestNgBasics"/>
+        <method signature="TestNgBasics.test1()[pri:3, instance:com.test.TestNgBasics@17e1b0c]" name="test1" class="com.test.TestNgBasics"/>
+      </group> <!-- GooglePage -->
+    </groups>
+    <test name="Different Features test" duration-ms="77" started-at="2018-03-22T10:39:14Z" finished-at="2018-03-22T10:39:14Z">
+      <class name="com.test.InvocationCountTest">
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.test.InvocationCountTest@77ab81]" name="sum" duration-ms="2" started-at="2018-03-22T10:39:14Z" finished-at="2018-03-22T10:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.test.InvocationCountTest@77ab81]" name="sum" duration-ms="1" started-at="2018-03-22T10:39:14Z" finished-at="2018-03-22T10:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.test.InvocationCountTest@77ab81]" name="sum" duration-ms="2" started-at="2018-03-22T10:39:14Z" finished-at="2018-03-22T10:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.test.InvocationCountTest@77ab81]" name="sum" duration-ms="1" started-at="2018-03-22T10:39:14Z" finished-at="2018-03-22T10:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.test.InvocationCountTest@77ab81]" name="sum" duration-ms="1" started-at="2018-03-22T10:39:14Z" finished-at="2018-03-22T10:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.test.InvocationCountTest@77ab81]" name="sum" duration-ms="2" started-at="2018-03-22T10:39:14Z" finished-at="2018-03-22T10:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.test.InvocationCountTest@77ab81]" name="sum" duration-ms="1" started-at="2018-03-22T10:39:14Z" finished-at="2018-03-22T10:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.test.InvocationCountTest@77ab81]" name="sum" duration-ms="1" started-at="2018-03-22T10:39:14Z" finished-at="2018-03-22T10:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.test.InvocationCountTest@77ab81]" name="sum" duration-ms="2" started-at="2018-03-22T10:39:14Z" finished-at="2018-03-22T10:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.test.InvocationCountTest@77ab81]" name="sum" duration-ms="0" started-at="2018-03-22T10:39:14Z" finished-at="2018-03-22T10:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- com.test.InvocationCountTest -->
+      <class name="com.test.TestNgBasics">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.TestNgBasics@17e1b0c]" name="setUp" is-config="true" duration-ms="33" started-at="2018-03-22T10:39:14Z" finished-at="2018-03-22T10:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.test.TestNgBasics@17e1b0c]" name="launchBrowser" is-config="true" duration-ms="0" started-at="2018-03-22T10:39:14Z" finished-at="2018-03-22T10:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="deleteallcookies()[pri:0, instance:com.test.TestNgBasics@17e1b0c]" name="deleteallcookies" is-config="true" duration-ms="0" started-at="2018-03-22T10:39:14Z" finished-at="2018-03-22T10:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteallcookies -->
+      </class> <!-- com.test.TestNgBasics -->
+      <class name="com.test.TestNgFeatures">
+        <test-method status="PASS" signature="logintest()[pri:0, instance:com.test.TestNgFeatures@5fd85d]" name="logintest" duration-ms="2" started-at="2018-03-22T10:39:14Z" finished-at="2018-03-22T10:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- com.test.TestNgFeatures -->
+      <class name="com.test.ExceptionTimeOutTest">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.test.ExceptionTimeOutTest@32c52b]" name="test1" duration-ms="7" started-at="2018-03-22T10:39:14Z" finished-at="2018-03-22T10:39:14Z">
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[For input string: "100A"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: For input string: "100A"
+at java.lang.NumberFormatException.forInputString(Unknown Source)
+at java.lang.Integer.parseInt(Unknown Source)
+at java.lang.Integer.parseInt(Unknown Source)
+at com.test.ExceptionTimeOutTest.test1(ExceptionTimeOutTest.java:19)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.test.ExceptionTimeOutTest -->
+    </test> <!-- Different Features test -->
+  </suite> <!-- TestNg automation Suite -->
+</testng-results>
